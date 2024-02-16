@@ -1,0 +1,106 @@
+
+.navbar{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 8px;
+    box-shadow: 0 1px 3px -2px black;
+}
+
+.nav-logo{
+
+    /*gap: 10px;*/
+
+
+    /*flex: 1;  Asigna espacio flexible al logo para que no empuje otros elementos */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Alinea el logo hacia el inicio del contenedor */
+}
+
+.nav-logo img {
+    width: 40px; /* Nuevo tamaño del logo */
+    height: auto; /* Mantiene la relación de aspecto */
+}
+
+.nav-logo p{
+    color: #009BFC;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.nav-menu{
+
+    flex: 2; /* Permite que el menú ocupe más espacio si es necesario */
+    display: flex;
+    justify-content: center; /* Centra el menú en el espacio asignado */
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+    color: #626262;
+    gap: 40px;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 500;
+
+}
+.nav-menu a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: #000; /* Cambia el color del texto, usa el color que prefieras */
+  }
+  
+.nav-menu a:hover {
+color: #555; /* Color al pasar el mouse por encima, ajusta según necesites */
+}
+
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+}
+
+.nav-menu hr{
+    border: none;
+    width: 80%;
+    height: 2px;
+    border-radius: 8px;
+    background: #626262;
+}
+
+.nav-agendar-cita{
+   /* flex: 1; /* Igual espacio flexible como el logo */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Alinea el botón hacia el final del contenedor */
+
+}
+
+
+
+.nav-agendar-cita button{
+    width: 150 px;
+    height: 28px;
+    outline: none;
+    border: 1px solid #009BFC;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 500;
+    background: #009BFC;
+    cursor: pointer;
+    box-shadow: 0px 3px 3px #8890917c;
+}
+
+.nav-agendar-cita button:active{
+    background-color: #FFFFFF;
+    color: #009BFC;
+    border: 1px solid #009BFC;
+
+}
+
