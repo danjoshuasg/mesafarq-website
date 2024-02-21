@@ -1,8 +1,10 @@
 import React from 'react'
-
+import Resumen from '../Components/Resumen/Resumen.jsx'
 const Inicio = () => {
   return (
-    <div>Inicio</div>
+    <div>
+      <Resumen/>
+    </div>
   )
 }
 
