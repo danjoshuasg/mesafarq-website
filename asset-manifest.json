@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/mesafarq-website/static/css/main.2083539a.css",
-    "main.js": "/mesafarq-website/static/js/main.1ed05ffe.js",
+    "main.css": "/mesafarq-website/static/css/main.52c2d890.css",
+    "main.js": "/mesafarq-website/static/js/main.c19e271d.js",
     "static/js/592.dfd84a52.chunk.js": "/mesafarq-website/static/js/592.dfd84a52.chunk.js",
+    "static/media/imagen_resumen.png": "/mesafarq-website/static/media/imagen_resumen.4e438d242b59284731a9.png",
     "static/media/logo.png": "/mesafarq-website/static/media/logo.eab6f347f5b57da0dbdc.png",
     "index.html": "/mesafarq-website/index.html",
-    "main.2083539a.css.map": "/mesafarq-website/static/css/main.2083539a.css.map",
-    "main.1ed05ffe.js.map": "/mesafarq-website/static/js/main.1ed05ffe.js.map",
+    "main.52c2d890.css.map": "/mesafarq-website/static/css/main.52c2d890.css.map",
+    "main.c19e271d.js.map": "/mesafarq-website/static/js/main.c19e271d.js.map",
     "592.dfd84a52.chunk.js.map": "/mesafarq-website/static/js/592.dfd84a52.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2083539a.css",
-    "static/js/main.1ed05ffe.js"
+    "static/css/main.52c2d890.css",
+    "static/js/main.c19e271d.js"
   ]
 }
