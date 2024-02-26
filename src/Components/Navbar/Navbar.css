@@ -6,6 +6,8 @@
     align-items: center;
     padding: 8px;
     box-shadow: 0 1px 3px -2px black;
+    background-color: #F2F2F2;
+    z-index: 1000;
 }
 
 .nav-logo{
@@ -48,11 +50,11 @@
 }
 .nav-menu a {
     text-decoration: none; /* Elimina el subrayado */
-    color: #000; /* Cambia el color del texto, usa el color que prefieras */
+    color: #404040; /* Cambia el color del texto, usa el color que prefieras */
   }
   
 .nav-menu a:hover {
-color: #555; /* Color al pasar el mouse por encima, ajusta según necesites */
+color: #707070; /* Color al pasar el mouse por encima, ajusta según necesites */
 }
 
 .nav-menu li{
@@ -81,9 +83,8 @@ color: #555; /* Color al pasar el mouse por encima, ajusta según necesites */
     justify-content: flex-end; /* Alinea el botón hacia el final del contenedor */
 
 }
-
 .nav-agendar-cita button{
-    width: 150 px;
+    width: 150px;
     height: 28px;
     outline: none;
     border: 1px solid #009BFC;
@@ -94,7 +95,11 @@ color: #555; /* Color al pasar el mouse por encima, ajusta según necesites */
     font-weight: 500;
     background: #009BFC;
     cursor: pointer;
-    box-shadow: 0px 3px 3px #8890917c;
+    box-shadow: 0px 4px 4px #8890917c;
+}
+
+.nav-agendar-cita button:hover{
+    transform: scale(1.07);
 }
 
 .nav-agendar-cita button:active{
