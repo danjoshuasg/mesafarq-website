@@ -1,10 +1,10 @@
 
-.navbar{
-
+.navbar {
     display: flex;
+    flex: 1;
     justify-content: space-evenly;
     align-items: center;
-    padding: 8px;
+    padding: 8px 20px; /* Aplica un padding vertical de 8px y un padding horizontal de 20px */
     box-shadow: 0 1px 3px -2px black;
     background-color: #F2F2F2;
     z-index: 1000;
@@ -118,20 +118,20 @@ color: #707070; /* Color al pasar el mouse por encima, ajusta según necesites *
 
 }
 
-.dropdown-menu {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 100%; /* Posiciona el dropdown justo debajo del elemento "Más" */
-    left: 50%;
-    transform: translateX(-50%); /* Centra el dropdown */
-    background-color: white; /* Fondo blanco para el recuadro */
-    border: 1px solid #ccc; /* Borde del recuadro */
-    border-radius: 8px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1); /* Sombra opcional */
-    z-index: 1; /* Asegura que el dropdown se muestre por encima de otros contenidos */
-  }
-  
+
+.navbar .dropdown-menu {
+display: block; /* Cambia a none para ocultarlo inicialmente */
+position: absolute;
+background-color: white; /* O el color de fondo deseado */
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+/* Mostrar el menú cuando isDropdownVisible sea true */
+.navbar .nav-menu li:hover .dropdown-menu {
+display: block;
+}
+
 .dropdown-menu li {
     text-align: center; /* Asegura que el texto esté centrado dentro de cada elemento del dropdown */
     white-space: nowrap; /* Evita que el texto se envuelva en múltiples líneas */

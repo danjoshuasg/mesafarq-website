@@ -1,0 +1,13 @@
+.carousel {
+    height: 50vh;
+    display: flex;
+    font-family: 'Poppins';
+    flex-wrap: wrap;
+    margin-top: 20px; /* Agrega un margen superior */
+    margin-bottom: 20px; /* Agrega un margen inferior */
+}
+
+.carousel-logo {
+    max-width: 100px; /* Ajusta este valor según necesites */
+    margin: auto; /* Centra la imagen en el Carousel.Item */
+}

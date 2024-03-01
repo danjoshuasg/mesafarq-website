@@ -1,28 +1,39 @@
-.item{
+.item {
     width: 350px;
-}
-.item p{
-    margin: 6px 0px;
+    padding: 20px; /* Ajustado para menos padding */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Opcional: añade sombra para mejor visualización */
 }
 
-.item-prices{
+.item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.item-detail, .item-prices, .item-specifications, .item-units, .item-type {
     display: flex;
+    align-items: center; /* Asegura que los elementos estén alineados verticalmente */
     gap: 20px;
-    color: #707070;
-    font-size: 20x;
-    font-weight: 600;
-
+    margin: 6px 0; /* Ajusta el margen para una mejor separación */
 }
 
-.item-specifications{
-    display: flex;
-    gap: 20px;
+.item-detail span, .item-prices span, .item-specifications span, .item-units span, .item-type span {
     color: #C9C5C3;
-    font-size: 15x;
     font-weight: 600;
-    text-decoration: line-through;
+    font-size: 15px; /* Corregido */
 }
 
-.item:hover{
-    transform: scale(1.05);
+.item-detail p, .item-prices p, .item-specifications p, .item-units p, .item-type p {
+    margin: 0; /* Elimina el margen por defecto de los párrafos */
+    color: #707070; /* Ajusta el color si es necesario */
 }
+
+.item-specifications span, .item-specifications p {
+    color: #C9C5C3; /* Especifica color para especificaciones si se desea */
+    font-size: 15px; /* Corregido y ajustado */
+}
+
+.item:hover {
+    transform: scale(1.05); /* Efecto de hover para escalar el ítem */
+}   

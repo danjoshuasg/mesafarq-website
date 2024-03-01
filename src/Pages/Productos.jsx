@@ -1,8 +1,13 @@
 import React from 'react'
+import Producto from './Producto.jsx';
 
 const Productos = () => {
   return (
-    <div>Productos de Mesafarq</div>
+    <div>
+      <h2>Productos de Mesafarq</h2>
+
+      <Producto/>
+    </div>
   )
 }
 
