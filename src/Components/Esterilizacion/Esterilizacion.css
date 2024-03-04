@@ -12,3 +12,17 @@
     font-weight: 600;
     font-family: 'Poppins';
 }
+
+.esterilizacion hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: #707070;
+}
+
+.esterilizacion-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 30px;
+}

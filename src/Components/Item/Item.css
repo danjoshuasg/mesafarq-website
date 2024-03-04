@@ -1,15 +1,17 @@
 .item {
     width: 350px;
+    height: auto;
     padding: 20px; /* Ajustado para menos padding */
     box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Opcional: añade sombra para mejor visualización */
 }
 
 .item img {
-    max-width: 100%;
+    max-width: 75%;
     height: auto;
     display: block;
-    margin-bottom: 10px;
+    margin: 0 auto 10px; /* 0 margen superior, auto para los márgenes laterales, 10px margen inferior */
 }
+
 
 .item-detail, .item-prices, .item-specifications, .item-units, .item-type {
     display: flex;
