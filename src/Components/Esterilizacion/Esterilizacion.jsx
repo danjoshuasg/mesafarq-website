@@ -6,7 +6,7 @@ import Item from '../Item/Item';
 const Esterilizacion = () => {
     return (
         <div className='esterilizacion'>
-            <h1>ESTERILIZACIÓN</h1>
+            <h1>Esterilización</h1>
             <hr />
             <div className="esterilizacion-item">
                 {data_product.map((item,i)=>{
