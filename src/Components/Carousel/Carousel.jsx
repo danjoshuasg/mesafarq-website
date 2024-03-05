@@ -1,11 +1,35 @@
 import React from 'react';
+import Slider from 'react-slick';
 
+// Importar los estilos de slick en caso de que aún no estén importados globalmente
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
-const CustomCarousel = () => {
-    return (
-        <div className="carousel">
-        </div>
-    );
-}
+import './Carousel.css'; // Tu propio archivo CSS para estilos adicionales
 
-export default CustomCarousel;
+const Carousel = ({ images }) => {
+  // Configuraciones para el carrusel
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000
+  };
+
+  return (
+    <div className='carousel-wrapper'>
+      <Slider {...settings}>
+        {images.map((image, index) => (
+          <div key={index} className="carousel-content">
+            <img src={image} alt={`Slide ${index}`} />
+          </div>
+        ))}
+      </Slider>
+    </div>
+  );
+};
+
+export default Carousel;

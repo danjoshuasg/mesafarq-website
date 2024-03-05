@@ -9,6 +9,7 @@ import Inicio from './Pages/Inicio';
 import Acerca from './Pages/Acerca';
 import Blog from './Pages/Blog';
 import FAQ from './Pages/FAQ';
+import Footer from './Components/Footer/Footer';
 
 
 
@@ -40,6 +41,7 @@ function App() {
 
           <Route path='/faq' element={<FAQ/>}/>
         </Routes>
+        <Footer/>
       </BrowserRouter>
       
     </div>

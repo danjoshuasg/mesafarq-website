@@ -1,0 +1,56 @@
+/* ContactForm.css */
+.contact-form-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-family: "Poppins";
+  }
+  
+  .contact-form-container h2 {
+    margin-bottom: 20px;
+    font-family: "Poppins";
+  }
+  
+  .form-group {
+    display: flex;
+    margin-bottom: 15px;
+    font-family: "Poppins";
+    justify-content: center;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+    font-family: "Poppins";
+  }
+  
+  .form-group button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #222222;
+    border-radius: 8px;
+    background-color: #222222;
+    box-shadow: 0px 4px 4px #8890917c;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: 500;
+  }
+  
+  .form-group button:hover {
+    transform: scale(1.03);
+  }
+
+
+  .form-group button:active{
+    background-color: #FFFFFF;
+    color: #222222;
+    border: 1px solid #222222;
+
+}

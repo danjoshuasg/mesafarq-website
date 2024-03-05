@@ -1,5 +1,5 @@
 .resumen{
-    height: 50vh;
+    min-height: 50vh;
     display: flex;
     font-family: 'Poppins';
     flex-wrap: wrap; /* Esto permite que los elementos se ajusten si no hay suficiente espacio */
