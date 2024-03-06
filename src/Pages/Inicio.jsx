@@ -13,8 +13,8 @@ const Inicio = () => {
   return (
     <div>
       <Resumen/>
-      <ContactoFormulario/>
       <Carousel images={images} />
+      <ContactoFormulario/>
     </div>
   );
 }
