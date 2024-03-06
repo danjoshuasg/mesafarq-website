@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mesafarq-website/static/css/main.78561785.css",
-    "main.js": "/mesafarq-website/static/js/main.39f7f4d1.js",
+    "main.css": "/mesafarq-website/static/css/main.6c9d7c59.css",
+    "main.js": "/mesafarq-website/static/js/main.790e5b0f.js",
     "static/js/592.dfd84a52.chunk.js": "/mesafarq-website/static/js/592.dfd84a52.chunk.js",
     "static/media/imagen_resumen.png": "/mesafarq-website/static/media/imagen_resumen.4e438d242b59284731a9.png",
     "static/media/producto_21.png": "/mesafarq-website/static/media/producto_21.596e452ba03c9efc220f.png",
@@ -37,12 +37,12 @@
     "static/media/slick.ttf": "/mesafarq-website/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/mesafarq-website/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/mesafarq-website/index.html",
-    "main.78561785.css.map": "/mesafarq-website/static/css/main.78561785.css.map",
-    "main.39f7f4d1.js.map": "/mesafarq-website/static/js/main.39f7f4d1.js.map",
+    "main.6c9d7c59.css.map": "/mesafarq-website/static/css/main.6c9d7c59.css.map",
+    "main.790e5b0f.js.map": "/mesafarq-website/static/js/main.790e5b0f.js.map",
     "592.dfd84a52.chunk.js.map": "/mesafarq-website/static/js/592.dfd84a52.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.78561785.css",
-    "static/js/main.39f7f4d1.js"
+    "static/css/main.6c9d7c59.css",
+    "static/js/main.790e5b0f.js"
   ]
 }
