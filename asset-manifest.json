@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mesafarq-website/static/css/main.ca39c895.css",
-    "main.js": "/mesafarq-website/static/js/main.b9350714.js",
+    "main.css": "/mesafarq-website/static/css/main.eb20faa8.css",
+    "main.js": "/mesafarq-website/static/js/main.512b2256.js",
     "static/js/592.dfd84a52.chunk.js": "/mesafarq-website/static/js/592.dfd84a52.chunk.js",
     "static/media/imagen_resumen.png": "/mesafarq-website/static/media/imagen_resumen.4e438d242b59284731a9.png",
     "static/media/producto_21.png": "/mesafarq-website/static/media/producto_21.596e452ba03c9efc220f.png",
@@ -9,6 +9,7 @@
     "static/media/producto_23.png": "/mesafarq-website/static/media/producto_23.30d101b61a90bf4885c1.png",
     "static/media/producto_5.png": "/mesafarq-website/static/media/producto_5.ba15813c190f7762688e.png",
     "static/media/producto_2.png": "/mesafarq-website/static/media/producto_2.f09a28cdffaffb313598.png",
+    "static/media/pfizer - gray.png": "/mesafarq-website/static/media/pfizer - gray.867c3efaaf00e7cb5ea0.png",
     "static/media/producto_25.png": "/mesafarq-website/static/media/producto_25.c7f27c8c2faccf263edf.png",
     "static/media/producto_7.png": "/mesafarq-website/static/media/producto_7.f7e748ab2ef04b632b72.png",
     "static/media/producto_6.png": "/mesafarq-website/static/media/producto_6.bbed33d7f288974924ea.png",
@@ -27,22 +28,25 @@
     "static/media/producto_24.png": "/mesafarq-website/static/media/producto_24.dbf5264f43f920518ce6.png",
     "static/media/producto_3.png": "/mesafarq-website/static/media/producto_3.d863adb7e3b2ed3728a1.png",
     "static/media/producto_18.png": "/mesafarq-website/static/media/producto_18.93ea07b90ea7070f9823.png",
+    "static/media/kimberly - gray.png": "/mesafarq-website/static/media/kimberly - gray.225ea19164dad8cdd989.png",
     "static/media/producto_20.png": "/mesafarq-website/static/media/producto_20.9c87a452314733d3b5d1.png",
     "static/media/producto_11.png": "/mesafarq-website/static/media/producto_11.7912e945dc65f5a8a3e0.png",
     "static/media/producto_27.png": "/mesafarq-website/static/media/producto_27.2d1c6f6de3265cf78db4.png",
     "static/media/producto_17.png": "/mesafarq-website/static/media/producto_17.d095b4bba4ddd1b0bda9.png",
+    "static/media/roche posay - gray.png": "/mesafarq-website/static/media/roche posay - gray.ced85cfd8102bb035804.png",
     "static/media/logo.png": "/mesafarq-website/static/media/logo.eab6f347f5b57da0dbdc.png",
+    "static/media/Bayer - gray.png": "/mesafarq-website/static/media/Bayer - gray.17412bace48b9e174ac1.png",
     "static/media/slick.svg": "/mesafarq-website/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/mesafarq-website/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/mesafarq-website/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/mesafarq-website/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/mesafarq-website/index.html",
-    "main.ca39c895.css.map": "/mesafarq-website/static/css/main.ca39c895.css.map",
-    "main.b9350714.js.map": "/mesafarq-website/static/js/main.b9350714.js.map",
+    "main.eb20faa8.css.map": "/mesafarq-website/static/css/main.eb20faa8.css.map",
+    "main.512b2256.js.map": "/mesafarq-website/static/js/main.512b2256.js.map",
     "592.dfd84a52.chunk.js.map": "/mesafarq-website/static/js/592.dfd84a52.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca39c895.css",
-    "static/js/main.b9350714.js"
+    "static/css/main.eb20faa8.css",
+    "static/js/main.512b2256.js"
   ]
 }
