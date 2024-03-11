@@ -1,0 +1,59 @@
+/* NumbersComponent.css */
+.numbers-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Poppins';
+    margin: 20px;
+  }
+  
+  .numbers-row {
+    display: flex;
+    justify-content: center; /* Cambiado de 'space-around' a 'center' */
+    flex-wrap: wrap;
+    gap: 100px;
+  }
+  
+  .number-item {
+    flex: 1;
+    margin: 10px;
+    color: #333333;
+    font-size: 80px;
+    font-weight: 700;
+    
+
+  }
+  
+  .number-item p {
+    margin: 5px 0;
+    color: #707070;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  .button-container button {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .button-container button:hover{
+    transform: scale(1.07);
+}
+
+.button-container button:active{
+    background-color: #FFFFFF;
+    color: #222222;
+    border: 1px solid #222222;
+
+}

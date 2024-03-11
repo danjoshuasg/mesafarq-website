@@ -21,6 +21,8 @@ function App() {
         <Routes>
           <Route path='/' element={<Inicio/>}/>
 
+          <Route path='/mesafarq-website' element={<Inicio/>}/>
+
           <Route path='/acerca' element={<Acerca/>}/>
 
           <Route path='/productos' element={<Productos/>}/>

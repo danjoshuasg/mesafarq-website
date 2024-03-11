@@ -1,13 +1,23 @@
 .carousel-wrapper {
-    width: 100%;
-    margin: auto;
-    justify-content: center;
-  }
-  
-  .carousel-content img {
-    width: 30%;
-    height: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  
+  width: 100%; /* Ensure the carousel doesn't exceed the width of the viewport */
+  margin: auto;
+  overflow: hidden; /* This can prevent horizontal scroll if elements are too wide */
+}
+
+.carousel-content img {
+  display: block;
+  width: auto; /* Un ancho fijo para todos los logos */
+  height: 50px; /* Una altura fija para todos los logos */
+  margin-left: auto; /* Centra la imagen horizontalmente */
+  margin-right: auto; /* Centra la imagen horizontalmente */
+
+}
+
+/* If you want to use grid, apply it to the .carousel-content or its parent */
+.carousel-content {
+  padding: 60px 0; /* Ajusta los 20px al espacio que necesites */
+  display: flex; /* Esto activa flexbox */
+  justify-content: center; /* Esto centra los elementos hijos horizontalmente */
+  align-items: center; /* Esto centra los elementos hijos verticalmente */
+}
+
