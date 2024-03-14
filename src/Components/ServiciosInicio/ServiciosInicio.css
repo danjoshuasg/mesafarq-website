@@ -2,29 +2,47 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Poppins';
+    margin-bottom: 20px;
+  }
+
+  .servicios h2 {
+    color: #333333;
+    font-size: 40px;
+    font-weight: 700;
   }
   
   .servicio {
     display: flex;
+    flex-direction: row; /* Asegúrate de que sea 'row' para la alineación horizontal */
+    align-items: flex-start; /* Alinea elementos al inicio */
     margin-bottom: 20px;
+    justify-content: center; /* Esto centrará verticalmente el texto junto a la imagen */
+    width: 110vh;
   }
   
   .servicio-imagen img {
-    max-width: 100%;
-    height: auto;
+    width: 50vh; /* Ajusta el ancho según sea necesario */
+    height: auto; /* Mantén la proporción de aspecto */
+    border-radius: 10%;
+    margin-right: 40px; /* Agrega margen para separar la imagen del texto */
   }
-  
+
   .servicio-info {
-    margin-left: 20px;
-    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    
   }
-  
+
   .servicio h3 {
     font-size: 1.5em;
   }
   
   .servicio p {
     font-size: 1em;
+    color: #707070;
   }
   
   .leer-mas {
@@ -56,12 +74,15 @@
   @media (max-width: 768px) {
     .servicio {
       flex-direction: column;
+      align-items: center; /* Center items on small screens */
     }
-  
-    .servicio-imagen,
+
+    .servicio-imagen img {
+      width: 80%; /* Adjust the width on small screens */
+    }
+
     .servicio-info {
-      width: 100%;
-      text-align: center;
+      align-items: center; /* Center text on small screens */
     }
   }
   
