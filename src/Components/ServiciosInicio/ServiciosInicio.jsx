@@ -19,23 +19,26 @@ const ServiciosInicio = () => {
   ];
 
   return (
-    <div className="servicios">
+    <div className="servicios-contenedor">
       <h2>SERVICIOS QUE OFRECEMOS</h2>
-      {servicios.map((servicio, index) => (
-        <div key={index} className="servicio">
-          <div className="servicio-imagen">
-            <img src={servicio.imagen} alt={servicio.nombre} />
-          </div>
-          <div className="servicio-info">
-            <h3>{servicio.nombre}</h3>
-            <div className="contenedor-descripcion">
-              <p>{servicio.descripcion}</p>
+        <div className="servicios">
+          {servicios.map((servicio, index) => (
+            <div key={index} className="servicio">
+              <div className="servicio-imagen"> {/* Imagen después */}
+                <img src={servicio.imagen} alt={servicio.nombre} />
+              </div>
+              <div className="servicio-info"> {/* Info primero */}
+                <h3>{servicio.nombre}</h3>
+                <div className="contenedor-descripcion">
+                  <p>{servicio.descripcion}</p>
+                </div>
+                <button className="leer-mas">Leer más</button>
+              </div>
             </div>
-            <button className="leer-mas">Leer más</button>
-          </div>
+          ))}
         </div>
-      ))}
     </div>
+
   );
 };
 

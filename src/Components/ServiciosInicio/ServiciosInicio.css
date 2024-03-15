@@ -1,40 +1,56 @@
+.servicios-contenedor {
+  text-align: center;
+
+  margin: 0 auto;
+  padding: 80px;
+  font-family: 'Poppins';
+  border-bottom: 0.05em solid #70707070;
+
+}
+.servicios-contenedor h2 {
+  color: #333333;
+  font-size: 40px;
+  font-weight: 700;
+}
 .servicios {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: 'Poppins';
-    margin-bottom: 20px;
-  }
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
 
-  .servicios h2 {
-    color: #333333;
-    font-size: 40px;
-    font-weight: 700;
-  }
   
-  .servicio {
-    display: flex;
-    flex-direction: row; /* Asegúrate de que sea 'row' para la alineación horizontal */
-    align-items: flex-start; /* Alinea elementos al inicio */
-    margin-bottom: 20px;
-    justify-content: center; /* Esto centrará verticalmente el texto junto a la imagen */
-    width: 110vh;
-  }
-  
-  .servicio-imagen img {
-    width: 50vh; /* Ajusta el ancho según sea necesario */
-    height: auto; /* Mantén la proporción de aspecto */
-    border-radius: 10%;
-    margin-right: 40px; /* Agrega margen para separar la imagen del texto */
-  }
+.servicio {
+  width: 110vh;
+  display: flex;
+  min-height: 60vh;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex-direction: row; /* Cambio importante aquí */
+  transition: transform 0.3s ease;
+}
 
-  .servicio-info {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+.servicio-imagen{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  gap: 20px;
 
-    
-  }
+
+}
+.servicio-imagen img {
+  width: 90%; /* Ajusta el ancho según sea necesario */
+  height: auto; /* Mantén la proporción de aspecto */
+  margin-right: 10px; /* Agrega margen para separar la imagen del texto */
+}
+
+.servicio-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end; 
+}
 
   .servicio h3 {
     font-size: 1.5em;
