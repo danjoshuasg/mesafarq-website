@@ -5,7 +5,7 @@ import Carousel from '../Components/Carousel/Carousel.jsx';
 import ProductosInicio from '../Components/ProductosInicio/ProductosInicio.jsx';
 import NumerosInicio from '../Components/NumerosInicio/NumerosInicio.jsx';
 import ServiciosInicio from '../Components/ServiciosInicio/ServiciosInicio.jsx';
-
+import EquipoMesafarq from '../Components/EquipoMesafarq/EquipoMesafarq.jsx';
 
 import image1 from '../Components/Assets/LogosAliados/kimberly - gray.png';
 import image2 from '../Components/Assets/LogosAliados/pfizer - gray.png';
@@ -22,6 +22,7 @@ const Inicio = () => {
       <ProductosInicio/>
       <NumerosInicio/>
       <ServiciosInicio/>
+      <EquipoMesafarq/>
       <ContactoFormulario/>
     </div>
   );
