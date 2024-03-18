@@ -29,6 +29,8 @@
   margin: 10px; /* Añade un margen para separar las tarjetas cuando estén juntas */
 }
 
+
+
 .ProductoInicio h3 {
   color: #333333;
   font-size: 20px; /* 'size' se cambió a 'font-size', que es la propiedad correcta */
