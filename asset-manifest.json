@@ -1,9 +1,14 @@
 {
   "files": {
-    "main.css": "/mesafarq-website/static/css/main.eb20faa8.css",
-    "main.js": "/mesafarq-website/static/js/main.512b2256.js",
+    "main.css": "/mesafarq-website/static/css/main.5a25acca.css",
+    "main.js": "/mesafarq-website/static/js/main.c110d3eb.js",
     "static/js/592.dfd84a52.chunk.js": "/mesafarq-website/static/js/592.dfd84a52.chunk.js",
+    "static/media/cadena logistica.png": "/mesafarq-website/static/media/cadena logistica.2df04ef38e1fb182729d.png",
+    "static/media/consultoria.png": "/mesafarq-website/static/media/consultoria.1580c04420d15ed68249.png",
     "static/media/imagen_resumen.png": "/mesafarq-website/static/media/imagen_resumen.4e438d242b59284731a9.png",
+    "static/media/CTO.png": "/mesafarq-website/static/media/CTO.405fcbc8827a4307d2e4.png",
+    "static/media/CEO.png": "/mesafarq-website/static/media/CEO.9b4e177b1870741e9bd5.png",
+    "static/media/CMO.png": "/mesafarq-website/static/media/CMO.a5fca6b087c761a54dc8.png",
     "static/media/producto_21.png": "/mesafarq-website/static/media/producto_21.596e452ba03c9efc220f.png",
     "static/media/producto_22.png": "/mesafarq-website/static/media/producto_22.5fab9b0f67c1e875bf63.png",
     "static/media/producto_23.png": "/mesafarq-website/static/media/producto_23.30d101b61a90bf4885c1.png",
@@ -41,12 +46,12 @@
     "static/media/slick.ttf": "/mesafarq-website/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/mesafarq-website/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/mesafarq-website/index.html",
-    "main.eb20faa8.css.map": "/mesafarq-website/static/css/main.eb20faa8.css.map",
-    "main.512b2256.js.map": "/mesafarq-website/static/js/main.512b2256.js.map",
+    "main.5a25acca.css.map": "/mesafarq-website/static/css/main.5a25acca.css.map",
+    "main.c110d3eb.js.map": "/mesafarq-website/static/js/main.c110d3eb.js.map",
     "592.dfd84a52.chunk.js.map": "/mesafarq-website/static/js/592.dfd84a52.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb20faa8.css",
-    "static/js/main.512b2256.js"
+    "static/css/main.5a25acca.css",
+    "static/js/main.c110d3eb.js"
   ]
 }
