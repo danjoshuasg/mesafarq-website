@@ -17,9 +17,7 @@ const Resumen = () => {
         </div>
       </div>
       <div className="resumen-right">
-        <div className="imagen">
-          <img src={Imagen_resumen} alt="" />
-        </div>
+        <img src={Imagen_resumen} alt="Descripción" /> {/* Asegúrate de que la clase 'imagen' no sea necesaria y no esté aplicando estilos adicionales */}
       </div>
     </div>
   )
