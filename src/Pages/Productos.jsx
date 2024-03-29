@@ -1,10 +1,12 @@
 import React from 'react'
-import Producto from './Producto.jsx';
+import Esterilizacion from '../Components/Productos/Esterilizacion/Esterilizacion';
+
 
 const Productos = () => {
   return (
     <div>
-      <Producto/>
+      <Esterilizacion/>
+
     </div>
   )
 }

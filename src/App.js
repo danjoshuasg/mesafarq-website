@@ -1,10 +1,8 @@
 import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import { BrowserRouter,Routes, Route} from 'react-router-dom';
-import Producto from './Pages/Producto';
 import Productos from './Pages/Productos';
 import Servicios from './Pages/Servicios';
-import ProductosCategorias from './Pages/ProductosCategorias';
 import Inicio from './Pages/Inicio';
 import Acerca from './Pages/Acerca';
 import Blog from './Pages/Blog';
@@ -27,15 +25,6 @@ function App() {
 
           <Route path='/productos' element={<Productos/>}/>
 
-          <Route path='/esterilizacion' element={<ProductosCategorias categoria="Esterilizacion"/>}/>
-
-          <Route path='/dental' element={<ProductosCategorias categoria="Dental"/>}/>
-
-          <Route path='/veterinario' element={<ProductosCategorias categoria="Veterinario"/>}/>
-
-          <Route path='/producto' element={<Producto/>}>
-            <Route path=':productoId' element={<Producto/>}/>
-          </Route>
 
           <Route path='/servicios' element={<Servicios/>}/>
 
