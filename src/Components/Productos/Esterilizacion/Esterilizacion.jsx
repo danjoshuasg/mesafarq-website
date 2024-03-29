@@ -1,7 +1,7 @@
 import React from 'react';
 import './Esterilizacion.css'
-import data_product from '../Assets/data_products';
-import Item from '../Item/Item';
+import data_product from '../../Assets/data_products';
+import Item from '../../Productos/Item/Item.jsx';
 
 const Esterilizacion = () => {
     return (

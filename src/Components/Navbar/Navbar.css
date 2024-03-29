@@ -137,3 +137,52 @@ display: block;
     white-space: nowrap; /* Evita que el texto se envuelva en múltiples líneas */
   }
 
+/* Media queries para ajustar el diseño en pantallas más pequeñas */
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none; /* Oculta el menú en dispositivos móviles */
+        flex-direction: column; /* Cambia la dirección a vertical para el menú desplegable */
+        position: absolute;
+        top: 60px; /* Ajusta según la altura de tu barra de navegación */
+        left: 0;
+        width: 100%;
+        background-color: #F2F2F2; /* Asegúrate de que el menú desplegable sea legible */
+    }
+
+    .nav-menu.active {
+        display: flex; /* Muestra el menú cuando esté activo */
+    }
+
+    .navbar .nav-logo, .navbar .nav-agendar-cita {
+        flex: 1; /* Asegura que el logo y el botón ocupen el espacio disponible adecuadamente */
+    }
+
+    .nav-logo p {
+        font-size: 16px; /* Reduce el tamaño del texto para que se ajuste mejor */
+    }
+
+    .nav-hamburger {
+        display: flex; /* Muestra el botón de hamburguesa */
+    }
+
+    .nav-hamburger div {
+        width: 30px;
+        height: 3px;
+        background-color: #404040;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+
+    /* Transformaciones para el botón de hamburguesa cuando esté activo */
+    .nav-hamburger.active div:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+
+    .nav-hamburger.active div:nth-child(2) {
+        opacity: 0;
+    }
+
+    .nav-hamburger.active div:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+}

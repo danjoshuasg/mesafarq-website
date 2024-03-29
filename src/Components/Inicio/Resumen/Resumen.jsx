@@ -1,6 +1,6 @@
 import React from 'react'
 import './Resumen.css'
-import Imagen_resumen from '../Assets/imagen_resumen.png'
+import Imagen_resumen from '../../Assets/imagen_resumen.png'
 
 const Resumen = () => {
   return (

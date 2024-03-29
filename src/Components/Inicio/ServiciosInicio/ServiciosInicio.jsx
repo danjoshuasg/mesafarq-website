@@ -1,7 +1,7 @@
 import React from 'react';
 import './ServiciosInicio.css';
-import cadena_logistica_img from '../Assets/Servicios/cadena logistica.png';
-import consultoria_img from '../Assets/Servicios/consultoria.png'
+import cadena_logistica_img from '../../Assets/Servicios/cadena logistica.png';
+import consultoria_img from '../../Assets/Servicios/consultoria.png'
 
 const ServiciosInicio = () => {
   const servicios = [

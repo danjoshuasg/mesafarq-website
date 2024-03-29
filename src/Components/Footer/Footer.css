@@ -1,7 +1,8 @@
 .footer {
     background-color: #222222; /* Fondo negro */
     color: #fff; /* Texto en blanco */
-    padding: 10px 20px; /* Padding para el contenido del footer */
+    padding: 10px 40px; /* Padding para el contenido del footer */
+    bottom: 0;
   }
   
   .footer-content {

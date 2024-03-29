@@ -8,8 +8,10 @@
   }
   
   .contact-form-container h2 {
-    margin-bottom: 20px;
-    font-family: "Poppins";
+    color: #333333;
+    font-size: 40px;
+    font-weight: 700px;
+
   }
   
   .form-group {

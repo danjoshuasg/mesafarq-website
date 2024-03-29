@@ -23,8 +23,10 @@ const Carousel = ({ images }) => {
     <div className='carousel-wrapper'>
       <Slider {...settings}>
         {images.map((image, index) => (
-          <div key={index} className="carousel-content">
-            <img src={image} alt={`Slide ${index}`} />
+          <div className="box">
+            <div key={index} className="carousel-content">
+              <img src={image} alt={`Slide ${index}`} />
+            </div>
           </div>
         ))}
       </Slider>

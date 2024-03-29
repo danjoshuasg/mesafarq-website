@@ -1,9 +1,10 @@
 .equipo-contenedor {
     text-align: center;
-    max-width: 1200px;
+    max-width: auto;
     margin: 0 auto;
-    padding: 20px;
     font-family: 'Poppins';
+
+    border-bottom: 0.05em solid #70707070;
   }
   
   .equipo-contenedor h2{
@@ -16,8 +17,9 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 5px;
     margin-top: 20px;
+    margin-bottom: 60px;
   }
   
   .tarjeta-integrante {
@@ -51,7 +53,6 @@
   }
   .btn-linkedin {
     background-color: #222222; /* Fondo oscuro por defecto */
-    color: white; /* Texto blanco por defecto */
     padding: 10px;
     border: none;
     border-radius: 4px;
@@ -71,15 +72,20 @@
     transform: scale(1.07);
   }
   
-  /* .btn-linkedin:active {
+  .btn-linkedin:active {
     background-color: #FFFFFF;
-    color: #222222;
     border: 1px solid #222222;
     --color-btn: #222222;
-  }*/
+  }
   
   /* Ícono de LinkedIn */
-  .btn-linkedin svg {
+  .btn-linkedin svg{
     vertical-align: middle;
+    color: white;
+  }
+
+  .btn-linkedin svg:active{
+    vertical-align: middle;
+    color: #222222;
   }
   

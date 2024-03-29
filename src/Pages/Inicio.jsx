@@ -1,11 +1,14 @@
 import React from 'react';
-import Resumen from '../Components/Resumen/Resumen.jsx';
-import ContactoFormulario from '../Components/ContactoForm/ContactoForm.jsx';
-import Carousel from '../Components/Carousel/Carousel.jsx';
-import ProductosInicio from '../Components/ProductosInicio/ProductosInicio.jsx';
-import NumerosInicio from '../Components/NumerosInicio/NumerosInicio.jsx';
-import ServiciosInicio from '../Components/ServiciosInicio/ServiciosInicio.jsx';
-import EquipoMesafarq from '../Components/EquipoMesafarq/EquipoMesafarq.jsx';
+import Resumen from '../Components/Inicio/Resumen/Resumen.jsx';
+import ContactoFormulario from '../Components/Inicio/ContactoForm/ContactoForm.jsx';
+import Carousel from '../Components/Inicio/Carousel/Carousel.jsx';
+import ProductosInicio from '../Components/Inicio/ProductosInicio/ProductosInicio.jsx';
+import NumerosInicio from '../Components/Inicio/NumerosInicio/NumerosInicio.jsx';
+import ServiciosInicio from '../Components/Inicio/ServiciosInicio/ServiciosInicio.jsx';
+import EquipoMesafarq from '../Components/Inicio/EquipoMesafarq/EquipoMesafarq.jsx';
+import Mapa from '../Components/Inicio/Mapa/Mapa.jsx';
+
+
 
 import image1 from '../Components/Assets/LogosAliados/kimberly - gray.png';
 import image2 from '../Components/Assets/LogosAliados/pfizer - gray.png';
@@ -23,6 +26,7 @@ const Inicio = () => {
       <NumerosInicio/>
       <ServiciosInicio/>
       <EquipoMesafarq/>
+      <Mapa/>
       <ContactoFormulario/>
     </div>
   );
