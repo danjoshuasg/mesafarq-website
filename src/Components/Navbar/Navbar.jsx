@@ -51,9 +51,9 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <div className="nav-agendar-cita">
-        <button>Agende una cita</button>
-      </div>
+        <div className="nav-agendar-cita">
+          <button onClick={() => window.location.href='https://api.whatsapp.com/send/?phone=%2B51947596332&text&type=phone_number&app_absent=0'}>Agende una cita</button>
+        </div>
     </div>
   );
 }

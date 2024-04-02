@@ -1,12 +1,11 @@
 import React from 'react'
-import Esterilizacion from '../Components/Productos/Esterilizacion/Esterilizacion';
+import Catalogo from '../Components/Productos/Catalogo/Catalogo';
 
 
 const Productos = () => {
   return (
     <div>
-      <Esterilizacion/>
-
+      <Catalogo/>
     </div>
   )
 }

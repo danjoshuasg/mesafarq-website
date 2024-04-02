@@ -1,4 +1,4 @@
-.esterilizacion{
+.Catalogo{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,21 +8,21 @@
 
 }
 
-.esterilizacion h1{
+.Catalogo h1{
     color: #707070;
     font-size: 60px;
     font-weight: 600;
     
 }
 
-.esterilizacion hr{
+.Catalogo hr{
     width: 200px;
     height: 6px;
     border-radius: 10px;
     background-color: #707070;
 }
 
-.esterilizacion-item{
+.Catalogo-item{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 50px;

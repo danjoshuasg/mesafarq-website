@@ -1,8 +1,9 @@
 .footer {
     background-color: #222222; /* Fondo negro */
     color: #fff; /* Texto en blanco */
-    padding: 10px 40px; /* Padding para el contenido del footer */
+    padding: 40px 40px; /* Padding para el contenido del footer */
     bottom: 0;
+    font-family: 'Poppins';
   }
   
   .footer-content {
@@ -25,5 +26,13 @@
   
   .footer-links a:hover {
     text-decoration: underline; /* Subrayado al pasar el mouse */
+  }
+
+  .footer-links .enlace{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
   }
   

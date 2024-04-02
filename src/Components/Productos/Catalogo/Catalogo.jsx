@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import SearchBar from '../../Productos/Searchbar/Searchbar.jsx'; // Asegúrate de que la ruta de importación sea correcta
-import './Esterilizacion.css';
-import data_product from '../../Assets/data_products';
-import Item from '../../Productos/Item/Item.jsx';
+import SearchBar from '../Searchbar/Searchbar.jsx'; // Asegúrate de que la ruta de importación sea correcta
+import './Catalogo.css';
+import data_product from '../../Assets/data_products.js';
+import Item from '../Item/Item.jsx';
 
-const Esterilizacion = () => {
+const  Catalogo = () => {
     const [searchKeyword, setSearchKeyword] = useState('');
     const [selectedCategory, setSelectedCategory] = useState('');
 
@@ -18,7 +18,7 @@ const Esterilizacion = () => {
     });
 
     return (
-        <div className='esterilizacion'>
+        <div className='Catalogo'>
             <h1>Nuestros Productos</h1>
             <hr />
             <SearchBar 
@@ -26,7 +26,7 @@ const Esterilizacion = () => {
               onCategoryChange={setSelectedCategory}
               categories={categories}
             />
-            <div className="esterilizacion-item">
+            <div className="Catalogo-item">
                 {filteredProducts.map((item, i) => {
                     return <Item key={i} {...item} />;
                 })}
@@ -35,4 +35,4 @@ const Esterilizacion = () => {
     );
 }
 
-export default Esterilizacion;
+export default Catalogo;
