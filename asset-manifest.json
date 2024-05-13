@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mesafarq-website/static/css/main.4a1d6320.css",
-    "main.js": "/mesafarq-website/static/js/main.3fc78fcd.js",
+    "main.css": "/mesafarq-website/static/css/main.b893a314.css",
+    "main.js": "/mesafarq-website/static/js/main.0659cd05.js",
     "static/js/592.dfd84a52.chunk.js": "/mesafarq-website/static/js/592.dfd84a52.chunk.js",
     "static/media/cadena logistica.png": "/mesafarq-website/static/media/cadena logistica.2df04ef38e1fb182729d.png",
     "static/media/consultoria.png": "/mesafarq-website/static/media/consultoria.1580c04420d15ed68249.png",
@@ -48,12 +48,12 @@
     "static/media/slick.ttf": "/mesafarq-website/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/mesafarq-website/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/mesafarq-website/index.html",
-    "main.4a1d6320.css.map": "/mesafarq-website/static/css/main.4a1d6320.css.map",
-    "main.3fc78fcd.js.map": "/mesafarq-website/static/js/main.3fc78fcd.js.map",
+    "main.b893a314.css.map": "/mesafarq-website/static/css/main.b893a314.css.map",
+    "main.0659cd05.js.map": "/mesafarq-website/static/js/main.0659cd05.js.map",
     "592.dfd84a52.chunk.js.map": "/mesafarq-website/static/js/592.dfd84a52.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a1d6320.css",
-    "static/js/main.3fc78fcd.js"
+    "static/css/main.b893a314.css",
+    "static/js/main.0659cd05.js"
   ]
 }
