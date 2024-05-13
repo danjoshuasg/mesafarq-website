@@ -13,6 +13,10 @@
     max-width: 1200px; /* Ancho máximo del contenido */
     margin: 0 auto; /* Centrar el contenido */
   }
+
+  .footer-content span{
+    font-family: "Orbitron";
+  }
   
   .footer-links {
     display: flex; /* Usar flexbox para los enlaces */

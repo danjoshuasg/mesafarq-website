@@ -21,11 +21,11 @@ const Inicio = () => {
   return (
     <div>
       <Resumen/>
-      <Carousel images={images} />
+      {/*<Carousel images={images} />*/}
       <ProductosInicio/>
       <NumerosInicio/>
       <ServiciosInicio/>
-      <EquipoMesafarq/>
+      {/*<EquipoMesafarq/>*/}
       <Mapa/>
       <ContactoFormulario/>
     </div>

@@ -1,3 +1,5 @@
+/* ProductosInicio.css */
+
 .ProductosInicio {
   text-align: center;
   background-color: #ffffff;
@@ -6,11 +8,9 @@
 }
 
 .ProductosInicio h2 {
-
   color: #333333;
   font-size: 40px;
   font-weight: 700;
-  
 }
 
 .ProductosInicio-Contenedor {
@@ -29,16 +29,13 @@
   margin: 10px; /* Añade un margen para separar las tarjetas cuando estén juntas */
 }
 
-
-
 .ProductoInicio h3 {
   color: #333333;
   font-size: 20px; /* 'size' se cambió a 'font-size', que es la propiedad correcta */
   text-align: center; /* Esta línea centra el texto de los h3 */
 }
 
-.ProductoInicio .texto-contenedor { /* Modifica esta clase si es necesario */
-  /* Ajusta la altura según sea necesario, o quita la propiedad si quieres que crezca con el contenido */
+.ProductoInicio .texto-contenedor {
   padding: 0 40px;
 }
 
@@ -72,4 +69,40 @@
   background-color: #FFFFFF;
   color: #222222;
   border: 1px solid #222222;
+}
+
+/* Estilos responsivos para pantallas con un ancho máximo de 1024px */
+@media (max-width: 1024px) {
+  .ProductoInicio {
+    width: 30%;
+  }
+
+  .ProductosInicio h2 {
+    font-size: 32px;
+  }
+}
+
+/* Estilos responsivos para pantallas con un ancho máximo de 768px */
+@media (max-width: 768px) {
+  .ProductoInicio {
+    width: 80%; /* Asegura que los cuadros de los productos se orienten de manera vertical */
+  }
+
+  .ProductosInicio h2 {
+    font-size: 24px;
+  }
+
+  .ProductoInicio h3 {
+    font-size: 18px;
+  }
+
+  .ProductoInicio p {
+    font-size: 16px;
+  }
+
+  .ProductoInicio button {
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+  }
 }

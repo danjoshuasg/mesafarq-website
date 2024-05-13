@@ -10,7 +10,7 @@ const Acerca = () => {
       <Historia/>
       <Vision/>
       <Mision/>
-      <Equipo/>
+      {/*<Equipo/>*/}
     </div>
 
   )
