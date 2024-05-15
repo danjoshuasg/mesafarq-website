@@ -1,4 +1,3 @@
-// ProductosInicio.js
 import React from 'react';
 import './ProductosInicio.css';
 import { Pill, Dna, Stethoscope } from "@phosphor-icons/react/dist/ssr";
